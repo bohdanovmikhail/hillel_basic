@@ -1,0 +1,32 @@
+.boldStyle:hover {
+  font-weight: bold;
+}
+
+.italicStyle:hover {
+  font-style: italic;
+}
+
+
+a {
+  color: red;
+}
+a:visited {
+  color: blue;
+}
+
+button {
+  background: yellow;
+  border-width: 2px;
+}
+
+button:hover {
+  border: 2px dotted black;
+}
+
+button:active {
+  border-radius: 50%;
+}
+
+button:focus {
+  font-style: italic;
+}
