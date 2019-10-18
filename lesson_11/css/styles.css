@@ -1,0 +1,41 @@
+
+
+header {
+  box-sizing: border-box;
+  height: 80px;
+  padding: 10px 0;
+  background: red;
+}
+
+header > .container {
+  height: 60px;
+}
+
+footer {
+  height: 80px;
+  background: green;
+}
+
+body:fullscreen footer {
+  background: yellow;
+}
+
+footer > .container {
+  height: 100%;
+}
+
+#content {
+  background: blue;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.slider {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
